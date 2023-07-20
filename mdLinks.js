@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { validateLink, findlinks } = require('./data.js');
 
-function mdLinks(archivoMd, validate) {
+function mdLinks(archivoMd, options) {
   const filePath = path.resolve(archivoMd);
 
   if (!fs.existsSync(filePath)) {
@@ -22,7 +22,7 @@ function mdLinks(archivoMd, validate) {
                 return fs.promises.readFile(absolutePath, 'utf8')
                   .then(fileContent => {
                     const links = findlinks(fileContent, absolutePath);
-                    if (validate) {
+                    if (options.validate) {
                       const linkPromises = links.map(linkObj => validateLink(linkObj));
                       return Promise.all(linkPromises);
                     } else {

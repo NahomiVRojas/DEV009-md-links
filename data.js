@@ -22,8 +22,11 @@ function findlinks (contentfile,archivoMd) {
 const axios = require('axios');
 
 function validateLink(objectLink) {
+  if(typeof objectLink !== 'object' || objectLink === null){
+    throw new Error("Parametro incorrecto")
+  }
     return axios.head(objectLink.href)
-      .then(response => {
+    .then(response => {
         objectLink.status = response.status;
         objectLink.ok = response.status >= 200 && response.status < 400 ? 'ok' : 'fail';
         return objectLink;
