@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const mdLinks = require('./mdLinks.js');
 
 const args = process.argv.slice(2); // Remover los primeros dos elementos (node y ruta del script)

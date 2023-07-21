@@ -1,8 +1,9 @@
 {
   "name": "md-links",
   "version": "0.1.0",
+  "description": "Tu descripción",
   "bin": {
-    "md-links": "./index.js"
+    "md-links": "./cli.js"
   },
   "engines": {
     "node": ">=16.x"
@@ -15,11 +16,11 @@
   "dependencies": {
     "axios": "^1.4.0",
     "markdown-it": "^13.0.1"
-  },
+  }, 
   "scripts": {
     "test": "jest"
   },
   "devDependencies": {
     "jest": "^29.6.1"
   }
-}
+} 
