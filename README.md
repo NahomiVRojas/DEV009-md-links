@@ -39,13 +39,13 @@ algunas estadísticas.
 El proyecto "Nombre del Proyecto" es una herramienta que permite analizar archivos Markdown (.md) en busca de enlaces y validar su estado de disponibilidad en la web.
 Esta aplicación ha sido desarrollada utilizando JavaScript y Node.js, brindando una solución efectiva y versátil para aquellos que trabajan con documentos Markdown y desean verificar la integridad de los enlaces que contienen.
 
-# Características principales:
+### Características principales:
 
-Extracción de enlaces: La herramienta es capaz de extraer todos los enlaces presentes en los archivos Markdown de forma precisa, 
+*Extracción de enlaces: La herramienta es capaz de extraer todos los enlaces presentes en los archivos Markdown de forma precisa, 
                        identificando tanto el texto del enlace como su URL.
-Validación de enlaces: Para aquellos usuarios que deseen asegurarse de que los enlaces dentro de sus archivos siguen siendo válidos,
+*Validación de enlaces: Para aquellos usuarios que deseen asegurarse de que los enlaces dentro de sus archivos siguen siendo válidos,
                       la herramienta ofrece una opción para validar el estado de cada enlace mediante peticiones HTTP.
-Información detallada: El resultado del análisis muestra información detallada sobre cada enlace, incluyendo su estado HTTP y si ha pasado la validación, 
+*Información detallada: El resultado del análisis muestra información detallada sobre cada enlace, incluyendo su estado HTTP y si ha pasado la validación, 
                         lo que permite identificar enlaces rotos y realizar correcciones necesarias.
 
 ## 3. Objetivos de aprendizaje
