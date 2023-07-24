@@ -47,6 +47,11 @@ Esta aplicación ha sido desarrollada utilizando JavaScript y Node.js, brindando
                       la herramienta ofrece una opción para validar el estado de cada enlace mediante peticiones HTTP.
 * `Información detallada`: El resultado del análisis muestra información detallada sobre cada enlace, incluyendo su estado HTTP y si ha pasado la validación, 
                         lo que permite identificar enlaces rotos y realizar correcciones necesarias.
+  
+### Proceso de Instalacion:
+Para poder Instalar la libreria se debera ejecutar el siguiente comando:
+
+`npm install `<NahomiVRojas>/md-links``
 
 ## 3. Objetivos de aprendizaje
 
