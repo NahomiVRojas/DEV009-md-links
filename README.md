@@ -36,24 +36,17 @@ algunas estadísticas.
 
 ## 2. Resumen del proyecto
 
-En este proyecto crearás una herramienta de línea de comando (CLI) así como tu
-propia librería (o biblioteca - library) en JavaScript.
+El proyecto "Nombre del Proyecto" es una herramienta que permite analizar archivos Markdown (.md) en busca de enlaces y validar su estado de disponibilidad en la web.
+Esta aplicación ha sido desarrollada utilizando JavaScript y Node.js, brindando una solución efectiva y versátil para aquellos que trabajan con documentos Markdown y desean verificar la integridad de los enlaces que contienen.
 
-En esta oportunidad nos alejamos un poco del navegador para construir un
-programa que se ejecute usando Node.js. Aprenderemos sobre procesos
-(`process.env`, `process.argv`, ...), cómo interactuar con el sistema archivos,
-cómo hacer consultas de red, etc.
+# Características principales:
 
-[Node.js](https://nodejs.org/es/) es un entorno de ejecución para JavaScript
-construido con el [motor de JavaScript V8 de Chrome](https://developers.google.com/v8/).
-Esto nos va a permitir ejecutar JavaScript en el entorno del sistema operativo,
-ya sea tu máquina o un servidor, lo cual nos abre las puertas para poder
-interactuar con el sistema en sí, archivos, redes, etc.
-
-Diseñar tu propia librería es una experiencia fundamental para cualquier
-desarrolladora porque que te obliga a pensar en la interfaz (API) de tus
-_módulos_ y cómo será usado por otras developers. Debes tener especial
-consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
+Extracción de enlaces: La herramienta es capaz de extraer todos los enlaces presentes en los archivos Markdown de forma precisa, 
+                       identificando tanto el texto del enlace como su URL.
+Validación de enlaces: Para aquellos usuarios que deseen asegurarse de que los enlaces dentro de sus archivos siguen siendo válidos,
+                      la herramienta ofrece una opción para validar el estado de cada enlace mediante peticiones HTTP.
+Información detallada: El resultado del análisis muestra información detallada sobre cada enlace, incluyendo su estado HTTP y si ha pasado la validación, 
+                        lo que permite identificar enlaces rotos y realizar correcciones necesarias.
 
 ## 3. Objetivos de aprendizaje
 
@@ -280,7 +273,9 @@ considere necesarios.
 * `README.md` con descripción del módulo, instrucciones de instalación/uso,
   documentación del API y ejemplos. Todo lo relevante para que cualquier
   developer que quiera usar tu librería pueda hacerlo sin inconvenientes.
-* `index.js`: Desde este archivo debes exportar **una** función (`mdLinks`).
+* `data.js`: Archivo donde se encuentra las funciones de Buscar los links de un archivo .md y funcion para valdiar los links.
+* `cli.js`: Archivo donde se importa la funcion mdlinks para poder hacer CLI
+* `mdLinks.js`: Archivo donde se encontrara la funcion principal de mdLiks
 * `package.json` con nombre, versión, descripción, autores, licencia,
   dependencias, scripts (pretest, test, ...), main, bin
 * `.editorconfig` con configuración para editores de texto. Este archivo no se
@@ -440,10 +435,6 @@ profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
 ## 8. Pistas, tips y lecturas complementarias
 
-Súmate al canal de Slack
-[#project-md-links](https://claseslaboratoria.slack.com/archives/C03T1E5TJCQ)
-para conversar y pedir ayuda del proyecto.
-
 ### FAQs
 
 #### ¿Cómo hago para que mi módulo sea _instalable_ desde GitHub?
@@ -569,7 +560,7 @@ y planificar tus tareas y objetivos, es recomendable hacer un
 
 Si nunca has hecho un diagrama de flujo revisa este [recurso](https://www.youtube.com/watch?v=Lub5qOmY4JQ).
 
-Una alternativa al diagrama de flujo puede ser el `pseudocódigo`.
+<img width="489" alt="image" src="https://github.com/NahomiVRojas/DEV009-md-links/assets/127104999/e029125d-a82b-4b1c-a740-7be3f224c590">
 
 ### Planificación
 
