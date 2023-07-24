@@ -48,6 +48,11 @@ Esta aplicación ha sido desarrollada utilizando JavaScript y Node.js, brindando
 * `Información detallada`: El resultado del análisis muestra información detallada sobre cada enlace, incluyendo su estado HTTP y si ha pasado la validación, 
                         lo que permite identificar enlaces rotos y realizar correcciones necesarias.
 
+### Características principales:
+Flujo del Proyecto:
+
+<img width="489" alt="image" src="https://github.com/NahomiVRojas/DEV009-md-links/assets/127104999/e029125d-a82b-4b1c-a740-7be3f224c590">
+
 ### package.json:
 
 ```{
@@ -62,10 +67,11 @@ Esta aplicación ha sido desarrollada utilizando JavaScript y Node.js, brindando
   ...
 ```
 
-### Proceso de Instalacion:
+### Instalacion:
 Para poder Instalar la libreria se debera ejecutar el siguiente comando:
 
 ```npm install NahomiVRojas/md-links```
+
 
 ## 3. Objetivos de aprendizaje
 
@@ -579,7 +585,6 @@ y planificar tus tareas y objetivos, es recomendable hacer un
 
 Si nunca has hecho un diagrama de flujo revisa este [recurso](https://www.youtube.com/watch?v=Lub5qOmY4JQ).
 
-<img width="489" alt="image" src="https://github.com/NahomiVRojas/DEV009-md-links/assets/127104999/e029125d-a82b-4b1c-a740-7be3f224c590">
 
 ### Planificación
 
