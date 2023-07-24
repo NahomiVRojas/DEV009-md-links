@@ -51,7 +51,7 @@ Esta aplicación ha sido desarrollada utilizando JavaScript y Node.js, brindando
 ### Proceso de Instalacion:
 Para poder Instalar la libreria se debera ejecutar el siguiente comando:
 
-`npm install `<NahomiVRojas>/md-links``
+npm install `<NahomiVRojas>/md-links`
 
 ## 3. Objetivos de aprendizaje
 
