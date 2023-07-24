@@ -41,11 +41,11 @@ Esta aplicación ha sido desarrollada utilizando JavaScript y Node.js, brindando
 
 ### Características principales:
 
-*Extracción de enlaces: La herramienta es capaz de extraer todos los enlaces presentes en los archivos Markdown de forma precisa, 
+* `Extracción de enlaces`: La herramienta es capaz de extraer todos los enlaces presentes en los archivos Markdown de forma precisa, 
                        identificando tanto el texto del enlace como su URL.
-*Validación de enlaces: Para aquellos usuarios que deseen asegurarse de que los enlaces dentro de sus archivos siguen siendo válidos,
+* `Validacion de enlaces`: Para aquellos usuarios que deseen asegurarse de que los enlaces dentro de sus archivos siguen siendo válidos,
                       la herramienta ofrece una opción para validar el estado de cada enlace mediante peticiones HTTP.
-*Información detallada: El resultado del análisis muestra información detallada sobre cada enlace, incluyendo su estado HTTP y si ha pasado la validación, 
+* `Información detallada`: El resultado del análisis muestra información detallada sobre cada enlace, incluyendo su estado HTTP y si ha pasado la validación, 
                         lo que permite identificar enlaces rotos y realizar correcciones necesarias.
 
 ## 3. Objetivos de aprendizaje
