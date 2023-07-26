@@ -4,7 +4,7 @@ function findlinks (contentfile,archivoMd) {
     throw new Error("Parametro incorrecto")
   }
 
-  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const regex = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
   const links = [];
 
   let match;

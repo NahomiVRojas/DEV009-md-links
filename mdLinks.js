@@ -8,7 +8,6 @@ function mdLinks(archivoMd, options) {
   if (!fs.existsSync(filePath)) {
     return Promise.reject(new Error('La ruta no existe'));
   }
-
   function readMarkdownFiles(dirPath) {
     return fs.promises.readdir(dirPath)
       .then(files => {
