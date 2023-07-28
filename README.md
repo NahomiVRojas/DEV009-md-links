@@ -36,7 +36,7 @@ algunas estadísticas.
 
 ## 2. Resumen del proyecto
 
-El proyecto "Nombre del Proyecto" es una herramienta que permite analizar archivos Markdown (.md) en busca de enlaces y validar su estado de disponibilidad en la web.
+El proyecto "Md-Links" es una herramienta que permite analizar archivos Markdown (.md) en busca de enlaces y validar su estado de disponibilidad en la web.
 Esta aplicación ha sido desarrollada utilizando JavaScript y Node.js, brindando una solución efectiva y versátil para aquellos que trabajan con documentos Markdown y desean verificar la integridad de los enlaces que contienen.
 
 ### Características principales:
