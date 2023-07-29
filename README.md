@@ -63,18 +63,19 @@ C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://javasc
 C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://github.com/yourusername/tus-ejemplos-js  Ejemplos de código
 PS C:\LABORATORIA\DEV009-md-links>```
 
-### Para mostrar los links validados
+### Para mostrar la cantidad de links unicos encontrados
+
 ```md-links 'path' --validate ```
 
 Ejemplo:
 ```
 PS C:\LABORATORIA\DEV009-md-links> md-links 'C:\LABORATORIA\DEV009-md-links\Carpeta Prueba' --validate
-C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\archivoHito3.md https://www.google.com ok <span style="color: red;">200 </span>Enlace a Google
-C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\archivoHito3.md https://www.wikipedia.org ok <span style="color: red;">200 </span> Enlace a Wikipedia
-C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\archivoHito3.md https://www.github.com ok <span style="color: red;">200 </span> Enlace a GitHub
-C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://developer.mozilla.org/es/docs/Web/JavaScript ok <span style="color: red;">200 </span> Documentación oficial de JavaScript
-C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://javascript30.com/ ok <span style="color: red;">200 </span> JavaScript en 30 minutos
-C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://github.com/yourusername/tus-ejemplos-js fail <span style="color: red;">404 </span> Ejemplos de código ```
+C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\archivoHito3.md https://www.google.com ok 200 Enlace a Google
+C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\archivoHito3.md https://www.wikipedia.org ok 200  Enlace a Wikipedia
+C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\archivoHito3.md https://www.github.com ok 200  Enlace a GitHub
+C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://developer.mozilla.org/es/docs/Web/JavaScript ok 200  Documentación oficial de JavaScript
+C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://javascript30.com/ ok 200  JavaScript en 30 minutos
+C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://github.com/yourusername/tus-ejemplos-js fail 404 Ejemplos de código ```
 
 ### Para mostrar la cantidad de links unicos encontrados
 ```md-links 'path' --stats ```
