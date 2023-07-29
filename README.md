@@ -61,11 +61,12 @@ C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\archivoHito3.md https://www.github
 C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://developer.mozilla.org/es/docs/Web/JavaScript  Documentación oficial de JavaScript
 C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://javascript30.com/  JavaScript en 30 minutos
 C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://github.com/yourusername/tus-ejemplos-js  Ejemplos de código
-PS C:\LABORATORIA\DEV009-md-links>```
+PS C:\LABORATORIA\DEV009-md-links>
+```
 
 ### Para mostrar la cantidad de links unicos encontrados
 
-```md-links 'path' --validate ```
+```md-links 'path' --validate```
 
 Ejemplo:
 ```
@@ -75,21 +76,25 @@ C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\archivoHito3.md https://www.wikipe
 C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\archivoHito3.md https://www.github.com ok 200  Enlace a GitHub
 C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://developer.mozilla.org/es/docs/Web/JavaScript ok 200  Documentación oficial de JavaScript
 C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://javascript30.com/ ok 200  JavaScript en 30 minutos
-C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://github.com/yourusername/tus-ejemplos-js fail 404 Ejemplos de código ```
+C:\LABORATORIA\DEV009-md-links\Carpeta Prueba\Prueba Hito 5\js.md https://github.com/yourusername/tus-ejemplos-js fail 404 Ejemplos de código
+```
 
 ### Para mostrar la cantidad de links unicos encontrados
 ```md-links 'path' --stats ```
 
 Ejemplo:
-```PS C:\LABORATORIA\DEV009-md-links> md-links 'C:\LABORATORIA\DEV009-md-links\Carpeta Prueba' --stats
+```
+PS C:\LABORATORIA\DEV009-md-links> md-links 'C:\LABORATORIA\DEV009-md-links\Carpeta Prueba' --stats
 Total: 6
-Únicos: 6 ```
+Únicos: 6
+```
 
 ### Para mostrar los links rotos
 ```md-links 'path' --validate --stats ```
 
 Ejemplo:
-```PS C:\LABORATORIA\DEV009-md-links> md-links 'C:\LABORATORIA\DEV009-md-links\Carpeta Prueba' --validate --stats
+```
+PS C:\LABORATORIA\DEV009-md-links> md-links 'C:\LABORATORIA\DEV009-md-links\Carpeta Prueba' --validate --stats
 Total: 6
 Únicos: 6
 Rotos: 1```
